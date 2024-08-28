@@ -1,6 +1,6 @@
 ﻿namespace WorkerService.Example
 {
-    internal interface IFileData
+    public interface IFileData
     {
         public Task Create(string Path);
     }
